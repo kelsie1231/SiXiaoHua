@@ -14,8 +14,8 @@ router.get('/milk', function(req, res, next) {
   res.render('milk');
 });
 
-router.get('/bar', function(req, res, next) {
-  res.render('bar')
+router.get('/report', function(req, res, next) {
+  res.render('report')
 });
 
 module.exports = router;
