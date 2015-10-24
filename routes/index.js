@@ -14,4 +14,8 @@ router.get('/milk', function(req, res, next) {
   res.render('milk');
 });
 
+router.get('/bar', function(req, res, next) {
+  res.render('/morris.js-0.5.1/examples/bar')
+});
+
 module.exports = router;
