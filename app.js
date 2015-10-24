@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 app.set('views', [
   path.join(__dirname, 'views'), 
-  path.join(__dirname, 'views/mooris.js-0.5.1/examples')
+  path.join(__dirname, 'views/morris.js-0.5.1/examples')
 ]);
 
 // uncomment after placing your favicon in /public
