@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home Page</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<style>
+body{
+    background-image: url("./hungry_baby.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+	color: #663366;
+	text-shadow: 3px 3px 3px #996699;
+	text-align: center;
+}
+h4{
+	color: #990066;
+	text-align: center;
+}
+div{
+    position: relative;
+    top: 400px;
+}
+</style>
+
+
+<body>
+<center>
+	<div class="container">
+	<h1><font face="Comic Sans MS" size="20">Feed this baby with? </h1> 
+	<button type="button" class="btn btn-info" id="breastfed">Breastfed</button>
+	<button type="button" class="btn btn-info" id="milk">Milk</button>
+</center>
+</div>
+</body>
+
+<script type="text/javascript">
+    document.getElementById("breastfed").onclick = function () {
+        location.href = "./breastfed.html";
+    };
+    document.getElementById("milk").onclick = function () {
+        location.href = "./milk.html";
+    };
+</script>
+</html>
